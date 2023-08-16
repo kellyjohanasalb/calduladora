@@ -1,0 +1,23 @@
+@use 'variables';
+@use 'initial';
+
+.header__title{
+    text-align: center;
+    color: variables.$Dark-grayish-cyan;
+    font-size: 1em;
+    margin: 30px 0;
+    letter-spacing: 8px;
+}
+
+.calculator-container{
+    background-color: variables
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title">SPLI <br> TITER</h1>
+    </header>
+    <section class="calculator-container">
+        <div class="inputs-section">
+            <label for="bill" class="inputs-section__bill-label">BILL</label>
+            <input id="bill"  class="inputs-section__bill-input" type="nukber"  value="0">
+
+            <fieldset clas="btns">
+                <legend class="btns__legend">Select Tip %</legend>
+                <button class="btns__button btns__button--selected">5%</button>
+                <button class="btns__button">10%</button>
+                <button class="btns__button">15%</button>
+                <button class="btns__button">20%</button>
+                <button class="btns__button">25%</button>
+                <label for="Custom"></label>
+                <input id="Custom"   type="number"  placeholder="Custom">
+            </fieldset>
+
+            <label for="people" class="inputs-section__bill-label">BILL</label>
+            <input id="people"  class="inputs-section__bill-input" type="nukber"  value="5">
+        </div>
+        <div class="result-section">
+            <div class="results">
+                <div>
+                    <p class="results__tip-amout">Tip Amount</p>
+                    <p class="results__tip-person">/ person</p>
+                </div>
+
+                <p class="results__tip-value"></p>
+
+                <div>
+                    <p class="results__total-amout">Total</p>
+                    <p class="results__tip-person">/ person</p>
+                </div>
+
+                <p class="results__tip-value"></p>
+                
+            </div>
+
+            <button>Reset</button>
+        </div>
+    </section>
+
+    <div class="atribution" coded by <a href="https://github.com/kellyjohanasalb/calduladora.git"></a>></div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
